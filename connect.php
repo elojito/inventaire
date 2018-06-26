@@ -1,8 +1,4 @@
 <?php
-//define('SERVER', "10.0.241.89");
-//define('USER', "cefiidev608");
-//define('PASSWORD', "pHG23cNh");
-//define('BASE', "cefiidev608");
 
 define('SERVER', "localhost");
 define('USER', "root");
