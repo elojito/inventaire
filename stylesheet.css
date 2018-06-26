@@ -1,0 +1,190 @@
+/*Global*/
+
+html {
+    width: 1280px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+}
+
+.left {
+    float: left;
+    width: 27%;
+    margin-left: 10%;
+    margin-top: 2.5em;
+}
+
+.right {
+    float: left;
+    width: 50%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.conteneur {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+img {
+    width: 24px;
+}
+
+
+/*NAVIGATION*/
+
+#wrap {
+    margin-bottom: 1em;
+    text-align: left;
+}
+
+#wrap ul {
+    padding: 0.5em;
+    background-color: #517D7C;
+    border: 1px solid white;
+}
+
+#wrap li {
+    display: inline-block;
+}
+
+#wrap a {
+    color: white;
+    width: 250px;
+    padding-left: 0.5em;
+    padding-right: 2.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+#wrap a:active,
+#wrap a:focus,
+#wrap a:hover {
+    background-color: white;
+    color: #517D7C;
+}
+
+#navP ul,
+#navF ul {
+    text-align: center;
+}
+
+#navP li:first-child,
+#navF li:first-child {
+    float: left;
+}
+
+
+/*FORMULAIRE*/
+
+form {
+    background-color: #517D7C;
+    padding: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+    border-radius: 4%;
+    text-align: center;
+}
+
+.single {
+    width: 40%;
+    margin: 0 auto;
+}
+
+fieldset {
+    padding: 1em;
+    color: white;
+}
+
+form li {
+    margin-bottom: 0.5em;
+    text-align: left;
+    margin-left: 10%;
+}
+
+.single li {
+    margin-left: 5%;
+}
+
+form label {
+    display: block;
+    width: 100px;
+    float: left;
+    color: white;
+}
+
+.single label {
+    width: 110px;    
+}
+
+form input {
+    color: black;
+    text-align: left;
+}
+
+input:-moz-read-only {
+    background-color: lightgray;
+}
+
+input:read-only {
+    background-color: lightgray;
+}
+
+form li:last-of-type {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.updateform {
+    width: 35%;
+    margin: 0 auto;
+}
+
+.updateform label {
+    width: 120px;
+}
+
+.updateform li {
+    margin-left: 15%;
+}
+
+
+/*AFFICHAGE BDD*/
+
+th,
+td {
+    text-align: center;
+}
+
+td,
+th {
+    padding: 0.3em;
+}
+
+tr:nth-child(even) {
+    background-color: lightgray;
+    color: black;
+}
+
+tr:nth-child(odd) {
+    background-color: beige;
+    color: black;
+}
+
+tr:first-child {
+    background-color: #517D7C;
+    color: white;
+}
